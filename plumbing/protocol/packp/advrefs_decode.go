@@ -136,6 +136,7 @@ func decodeFirstHash(p *advRefsDecoder) decoderStateFn {
 	// TODO: Use object-format (when available) for hash size. Git 2.41+
 	if len(p.line) < hashSize {
 		//p.error("cannot read hash, pkt-line too short")
+
 		return nil
 	}
 
