@@ -8,7 +8,7 @@ type stateFn func() stateFn
 
 const (
 	// common
-	hashSize = 1
+	hashSize = 40
 
 	// advrefs
 	head   = "HEAD"
