@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/go-git/go-git/v5"
-	. "github.com/go-git/go-git/v5/_examples"
-	"github.com/go-git/go-git/v5/plumbing/format/config"
-	"github.com/go-git/go-git/v5/plumbing/object"
+	"github.com/jackKrasn/go-git/v5"
+	. "github.com/jackKrasn/go-git/v5/_examples"
+	"github.com/jackKrasn/go-git/v5/plumbing/format/config"
+	"github.com/jackKrasn/go-git/v5/plumbing/object"
 )
 
 // This example requires building with the sha256 tag for it to work:

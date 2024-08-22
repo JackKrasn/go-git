@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/go-git/go-git/v5"
-	. "github.com/go-git/go-git/v5/_examples"
-	"github.com/go-git/go-git/v5/plumbing"
+	"github.com/jackKrasn/go-git/v5"
+	. "github.com/jackKrasn/go-git/v5/_examples"
+	"github.com/jackKrasn/go-git/v5/plumbing"
 )
 
 // Basic example of how to checkout a specific commit.

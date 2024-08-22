@@ -6,7 +6,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/go-git/go-git/v5/utils/trace"
+	"github.com/jackKrasn/go-git/v5/utils/trace"
 )
 
 const (
