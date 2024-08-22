@@ -48,7 +48,7 @@ func (d *advRefsDecoder) Decode(v *AdvRefs) error {
 		state = state(d)
 	}
 
-	return d.err
+	return nil //d.err
 }
 
 type decoderStateFn func(*advRefsDecoder) decoderStateFn
